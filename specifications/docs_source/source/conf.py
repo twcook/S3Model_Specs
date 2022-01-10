@@ -51,8 +51,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'S3Model'
-copyright = '2009 - 2018, Data Insights, Inc. https://datainsights.tech  '
+project = 'S3Model Specifications'
+copyright = '2009 - 2022, Timothy W. Cook'
 author = 'Timothy W. Cook'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -229,7 +229,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'S3Model.tex', 'S3Model Documentation',
+  (master_doc, 'S3Model.tex', 'S3Model Specifications',
    'Timothy W. Cook', 'manual'),
 ]
 
@@ -259,7 +259,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'S3Model', 'S3Model Documentation',
+    (master_doc, 'S3Model', 'S3Model Specifications',
      [author], 1)
 ]
 
@@ -273,8 +273,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'S3Model', 'S3Model Documentation',
-   author, 'S3Model', 'One line description of project.',
+  (master_doc, 'S3Model', 'S3Model Specifications',
+   author, 'S3Model', 'Specifications.',
    'Miscellaneous'),
 ]
 
